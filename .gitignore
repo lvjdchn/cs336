@@ -1,0 +1,54 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+.cursor/
+
+# Python environments & caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.uv/
+
+# Logs / temp
+*.log
+tmp.log
+profile.svg
+
+# Assignment datasets & large artifacts (download locally, don't commit)
+**/data/
+*.txt.gz
+*.jsonl
+*.jsonl.gz
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.h5
+*.parquet
+*.arrow
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Common model / wandb caches
+wandb/
+runs/
+outputs/
+checkpoints/
+*.wandb
+
+# Node (if any lecture frontend tooling)
+node_modules/
